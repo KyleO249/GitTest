@@ -9,7 +9,7 @@ namespace AreaCalc
         {
             this.width = width;
         }
-        public Decimal area()
+        public Decimal Area()
         {
             Double.Parse(width + "");
             double area = Math.PI * (Math.Pow((Double.Parse(width + "")), 2.0));

@@ -10,7 +10,7 @@ namespace AreaCalc
             Console.Write("Please select your width for the cicle: ");
             int width = int.Parse(Console.ReadLine());
             Circle circle = new Circle(width);
-            Console.WriteLine("The area of your cicle is: " + circle.area());
+            Console.WriteLine("The area of your cicle is: " + circle.Area());
             Console.Write("Please select your width for the triangle: ");
             width = int.Parse(Console.ReadLine());
             Triangle triangle = new Triangle(width);
