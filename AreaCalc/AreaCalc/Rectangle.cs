@@ -2,14 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AreaCalc
+
+public class Rectangle
 {
-    class Reactangle
+    // Method for calculating area of rectangle
+    public decimal rectangleArea(decimal length, decimal width)
     {
-        // Method for calculating area of rectangle
-        public decimal reactangleArea(decimal length, decimal width)
-        {
-            return length * width;
-        }
+        return length * width;
     }
 }

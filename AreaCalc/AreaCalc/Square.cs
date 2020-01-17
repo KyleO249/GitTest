@@ -1,14 +1,12 @@
 ﻿using System;
 
-namespace Git_test
+
+public class Square
 {
-    class Square
+
+    public decimal calculateSquareArea(decimal length)
     {
-      
-        public double calculateSquareArea(double length)
-        {
-            return length * length;
-        }
-        
+        return length * length;
     }
+
 }
