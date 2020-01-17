@@ -5,14 +5,9 @@ namespace Git_test
     class Square
     {
       
-        public void calculateSquareArea()
+        public double calculateSquareArea(double length)
         {
-            Console.Write("a = ");
-            int length = int.Parse(Console.ReadLine());
-            int area = length * length;
-            Console.Write("Square area = " + area);
-            
-
+            return length * length;
         }
         
     }
