@@ -4,15 +4,9 @@ namespace AreaCalc
 {
     public class Circle
     {
-        int width;
-        public Circle(int width)
+        public Decimal Area(double width)
         {
-            this.width = width;
-        }
-        public Decimal Area()
-        {
-            Double.Parse(width + "");
-            double area = Math.PI * (Math.Pow((Double.Parse(width + "")), 2.0));
+            double area = Math.PI * (Math.Pow(width, 2.0));
             return Decimal.Parse(area + "");
         }
     }
