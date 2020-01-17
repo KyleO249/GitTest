@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Git_test
+namespace AreaCalc
 {
     class Square
     {
