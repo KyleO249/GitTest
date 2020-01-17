@@ -10,11 +10,9 @@ namespace AreaCalc
         public decimal length, breadth;
 
         // Method for calculating area of rectangle
-        public decimal reactangleArea()
+        public decimal reactangleArea(decimal length, decimal width)
         {
-            length = decimal.Parse(Console.ReadLine());
-            breadth = decimal.Parse(Console.ReadLine());
-            return length * breadth;
+            return length * width;
         }
     }
 }
